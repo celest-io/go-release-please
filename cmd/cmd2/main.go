@@ -9,5 +9,5 @@ import (
 )
 
 func main() {
-	fmt.Sprintf("Starting CMD2 %s \n", version.Info())
+	fmt.Printf("Starting CMD2 %s \n", version.Info())
 }
