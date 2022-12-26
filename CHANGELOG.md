@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.2](https://github.com/celest-io/go-release-please/compare/go-release-please-v0.0.1...go-release-please-v0.0.2) (2022-12-26)
+
+
+### Features
+
+* Initial commit ([ca237d3](https://github.com/celest-io/go-release-please/commit/ca237d3be6612906897050f361d0c6e919d61358))
+
+
+### Bug Fixes
+
+* **build:** Golangci-lint step ([37d3d5b](https://github.com/celest-io/go-release-please/commit/37d3d5b0a6eb7e9a53e942859d5435042217e36b))
+* Command version output ([c1802a9](https://github.com/celest-io/go-release-please/commit/c1802a9f100257a5fa00947766ce357aeefc7d6c))
+* Release-please permissions ([f16e009](https://github.com/celest-io/go-release-please/commit/f16e0094a50bf8bd361435454604796c3841b395))
+* Set first realse ([112b5ab](https://github.com/celest-io/go-release-please/commit/112b5ab204cc80cc1649109fa17d9ad9148c5b12))
+
 ## 1.0.0 (2022-12-26)
 
 
