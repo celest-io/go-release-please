@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.1.0](https://github.com/celest-io/go-release-please/compare/go-release-please-v0.0.4...go-release-please-v0.1.0) (2022-12-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add charts
+
+### Features
+
+* Add charts ([722231a](https://github.com/celest-io/go-release-please/commit/722231a716401220061b270d8383c78ad4f4a5f4))
+
+
+### Bug Fixes
+
+* **build:** Add issue creation permission to release workflow ([ceeebca](https://github.com/celest-io/go-release-please/commit/ceeebca9878514ec2c7b83089a2bb5fb9f4d7e5f))
+* **build:** Docker build ([3babb9d](https://github.com/celest-io/go-release-please/commit/3babb9dc069b849a5b7d495a230bda6258aaf774))
+* **build:** Docker build ([7744d5f](https://github.com/celest-io/go-release-please/commit/7744d5f5ee413f96818d30e24e3c86e5f234fb7c))
+* **build:** Re-add component tag ([9d1ea76](https://github.com/celest-io/go-release-please/commit/9d1ea766b2a3bf1874e1649447ffe31e24b13b0b))
+* **build:** Release-please PR title ([9a13e97](https://github.com/celest-io/go-release-please/commit/9a13e972478f2973c89c5de95000bf50a732b38e))
+* **build:** Remove monorepo option ([57c82e2](https://github.com/celest-io/go-release-please/commit/57c82e2742a7709750fb7d814f13006bd9532288))
+
+
+### Miscellaneous Chores
+
+* Release 0.1.0 ([8c4059e](https://github.com/celest-io/go-release-please/commit/8c4059e895dd053754435ba583e699bb00f27863))
+
 ## [0.0.4](https://github.com/celest-io/go-release-please/compare/v0.0.5...v0.0.4) (2022-12-27)
 
 
