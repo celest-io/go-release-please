@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/celest-io/go-release-please/compare/go-release-please-v0.0.4...go-release-please-v0.0.5) (2022-12-27)
+
+
+### Bug Fixes
+
+* **build:** Add issue creation permission to release workflow ([ceeebca](https://github.com/celest-io/go-release-please/commit/ceeebca9878514ec2c7b83089a2bb5fb9f4d7e5f))
+
 ## [0.0.4](https://github.com/celest-io/go-release-please/compare/go-release-please-v0.0.2...go-release-please-v0.0.4) (2022-12-26)
 
 
