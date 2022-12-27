@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0](https://github.com/celest-io/go-release-please/compare/loki-gateway-chart-v0.1.0...loki-gateway-chart-v0.2.0) (2022-12-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* test helm chart release
+
+### Bug Fixes
+
+* Test helm chart release ([81bd862](https://github.com/celest-io/go-release-please/commit/81bd862dc4147aeecacf5d786fa021821502ac04))
+
 ## [0.1.0](https://github.com/celest-io/go-release-please/compare/loki-gateway-chart-v0.0.4...loki-gateway-chart-v0.1.0) (2022-12-27)
 
 
