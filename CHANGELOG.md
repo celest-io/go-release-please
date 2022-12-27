@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/celest-io/go-release-please/compare/v0.1.1...v0.1.2) (2022-12-27)
+
+
+### Bug Fixes
+
+* **build:** Disable goreleaser pre-release and change project name ([311be12](https://github.com/celest-io/go-release-please/commit/311be122bc7c9eee7a0a94a621b243f1a89bad49))
+
 ## [0.1.1](https://github.com/celest-io/go-release-please/compare/v0.1.0...v0.1.1) (2022-12-27)
 
 
