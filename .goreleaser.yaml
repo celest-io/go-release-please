@@ -1,4 +1,4 @@
-project_name: auth-gateway
+project_name: go-release-please
 
 builds:
   - id: cmd1
@@ -76,7 +76,7 @@ archives:
     format: tar.gz
 
 release:
-  prerelease: "true"
+  prerelease: "false"
   extra_files:
     - glob: config/release/*.yaml
 
