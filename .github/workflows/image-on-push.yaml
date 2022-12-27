@@ -17,8 +17,8 @@ jobs:
     strategy:
       matrix:
         image:
-          - mimir-gateway
-          - loki-gateway
+          - cmd1
+          - cmd2
 
     runs-on: ubuntu-latest
     permissions:
