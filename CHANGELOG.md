@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/celest-io/go-release-please/compare/go-release-please-v0.1.0...go-release-please-v0.1.1) (2022-12-27)
+
+
+### Bug Fixes
+
+* **build:** Add separate PR option ([d86d08a](https://github.com/celest-io/go-release-please/commit/d86d08aa8878f5618baec6ee2eb015c1c88a6329))
+
 ## [0.1.0](https://github.com/celest-io/go-release-please/compare/go-release-please-v0.0.4...go-release-please-v0.1.0) (2022-12-27)
 
 
