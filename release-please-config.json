@@ -16,6 +16,8 @@
     },
     ".": {
       "package-name": "go-release-please",
+      "include-component-in-tag": false,
+      "monorepo-tags": false,
       "release-type": "go"
     }
   },
