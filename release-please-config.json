@@ -1,5 +1,4 @@
 {
-  "pull-request-title-pattern": "chore: release${component} ${version}",
   "changelog-path": "CHANGELOG.md",
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
