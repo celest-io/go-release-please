@@ -9,6 +9,7 @@ permissions:
   id-token: write # needed for keyless signing
   packages: write # needed for ghcr access
   pull-requests: write
+  issues: write
 
 env:
   GO_VERSION: 1.19.3
