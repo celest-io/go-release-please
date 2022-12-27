@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/celest-io/go-release-please/compare/v0.1.0...v0.1.1) (2022-12-27)
+
+
+### Bug Fixes
+
+* **build:** Set id to release-please step ([25c5c36](https://github.com/celest-io/go-release-please/commit/25c5c36d7f2d7c94c6d0464fa4621eee00cdbdcc))
+
 ## [0.1.0](https://github.com/celest-io/go-release-please/compare/v0.1.1...v0.1.0) (2022-12-27)
 
 
