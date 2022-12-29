@@ -131,6 +131,9 @@ docker_signs:
     env:
       - COSIGN_EXPERIMENTAL=1
     artifacts: all
+    args:
+      - sign
+      - ${artifact}
     output: true
 
 signs:
