@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.0](https://github.com/celest-io/go-release-please/compare/v0.1.2...v0.2.0) (2022-12-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* publish docker images using gorelaser
+* test helm chart release
+
+### Bug Fixes
+
+* Test helm chart release ([81bd862](https://github.com/celest-io/go-release-please/commit/81bd862dc4147aeecacf5d786fa021821502ac04))
+
+
+### Build System
+
+* Publish docker images using gorelaser ([207aeb9](https://github.com/celest-io/go-release-please/commit/207aeb90731995a70b62f2063368b018c8755f74))
+
 ## [0.1.2](https://github.com/celest-io/go-release-please/compare/v0.1.1...v0.1.2) (2022-12-27)
 
 
