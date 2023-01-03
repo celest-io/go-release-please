@@ -1,8 +1,0 @@
-FROM alpine:3
-
-RUN apk add --no-cache ca-certificates
-
-#COPY ./dist/cmd2_linux_amd64_v1/cmd2 /usr/bin/cmd2
-COPY cmd2 /usr/bin/cmd2
-
-ENTRYPOINT ["/usr/bin/cmd2"]
