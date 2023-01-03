@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/celest-io/go-release-please/compare/v0.2.1...v0.2.2) (2023-01-03)
+
+
+### Bug Fixes
+
+* **build:** Add helm charts release workflow ([107e7cf](https://github.com/celest-io/go-release-please/commit/107e7cf011e7df8834aac2d02c70fe7c6a867eab))
+
 ## [0.2.1](https://github.com/celest-io/go-release-please/compare/v0.2.0...v0.2.1) (2022-12-29)
 
 
