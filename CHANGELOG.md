@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.1](https://github.com/celest-io/go-release-please/compare/v0.3.0...v0.3.1) (2023-01-03)
+
+
+### Features
+
+* **build:** Rename chart component ([4de3346](https://github.com/celest-io/go-release-please/commit/4de33466dd9399221fc32f16ef4e8846d2a30ef5))
+* **build:** Update the application version in the helm charts ([7745020](https://github.com/celest-io/go-release-please/commit/7745020a3665f16e1fed1831b354da1c455bd3c5))
+
 ## [0.3.0](https://github.com/celest-io/go-release-please/compare/v0.2.3...v0.3.0) (2023-01-03)
 
 
