@@ -17,7 +17,11 @@
     ".": {
       "component": "go-release-please",
       "release-type": "go",
-      "include-component-in-tag": false
+      "include-component-in-tag": false,
+      "extra-files": [
+        "charts/loki-gateway/Chart.yaml",
+        "charts/mimir-gateway/Chart.yaml"
+      ]
     }
   },
   "plugins": ["sentence-case"],
