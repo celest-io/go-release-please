@@ -28,8 +28,8 @@ jobs:
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
       release_tag_name: ${{ steps.release.outputs.tag_name }}
-      chart_release_created: ${{ steps.release.outputs['loki-gateway--release_created'] || steps.release.outputs['mimir-gateway--release_created'] }}
-      chart_release_tag_name: ${{ steps.release.outputs['loki-gateway--tag_name'] || steps.release.outputs['mimir-gateway--tag_name'] }}
+      chart_release_created: ${{ steps.release.outputs['charts/loki-gateway--release_created'] || steps.release.outputs['charts/mimir-gateway--release_created'] }}
+      chart_tag_name: ${{ steps.release.outputs['charts/loki-gateway--tag_name'] || steps.release.outputs['charts/mimir-gateway--tag_name'] }}
 
   go-release:
     needs: release-please
@@ -80,7 +80,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: ${{ needs.release-please.outputs.chart_release_tag_name }}
+          ref: ${{ needs.release-please.outputs.chart_tag_name }}
 
       - name: Fetch history
         run: git fetch --prune --unshallow
