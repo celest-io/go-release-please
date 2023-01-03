@@ -3,8 +3,8 @@ name: loki-gateway
 home: https://github.com/celest-io/go-release-please
 description: A Helm chart for loki-gateway
 type: application
-version: 0.2.0
-appVersion: v0.3.0 # x-release-please-version
+version: 0.1.0
+appVersion: v0.3.0
 maintainers:
   - name: yvigara
     email: no-reply@celest.io
