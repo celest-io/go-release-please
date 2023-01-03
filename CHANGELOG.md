@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.3](https://github.com/celest-io/go-release-please/compare/v0.2.2...v0.2.3) (2023-01-03)
+
+
+### Bug Fixes
+
+* **build:** Add missing dependency to chart-release workflow ([f43016a](https://github.com/celest-io/go-release-please/commit/f43016a34ad8b6760b50845c850f72e04453ea0c))
+* **build:** Remove release grouping ([09e1627](https://github.com/celest-io/go-release-please/commit/09e16272c0c7bc1694fcf6e747dc76f72b8f9a75))
+
 ## [0.2.2](https://github.com/celest-io/go-release-please/compare/v0.2.1...v0.2.2) (2023-01-03)
 
 
