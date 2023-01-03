@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/celest-io/go-release-please/compare/v0.2.0...v0.2.1) (2022-12-29)
+
+
+### Bug Fixes
+
+* **build:** Change docker-sign command ([0fe3d61](https://github.com/celest-io/go-release-please/commit/0fe3d6112fc83a3844328d23c796fe1fb1b55ad5))
+
 ## [0.2.0](https://github.com/celest-io/go-release-please/compare/v0.1.2...v0.2.0) (2022-12-29)
 
 
