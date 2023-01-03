@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0](https://github.com/celest-io/go-release-please/compare/mimir-gateway-chart-v0.1.0...mimir-gateway-chart-v0.2.0) (2023-01-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* **build:** update the application version in the helm charts
+
+### Features
+
+* **build:** Update the application version in the helm charts ([5a9cc21](https://github.com/celest-io/go-release-please/commit/5a9cc21516cd2fcfb659ece5e565e0d91aa5f33d))
+
 ## [0.1.0](https://github.com/celest-io/go-release-please/compare/mimir-gateway-chart-v0.0.4...mimir-gateway-chart-v0.1.0) (2022-12-27)
 
 
