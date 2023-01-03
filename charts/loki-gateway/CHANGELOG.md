@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/celest-io/go-release-please/compare/loki-gateway-v0.1.0...loki-gateway-v0.1.1) (2023-01-03)
+
+
+### Bug Fixes
+
+* Version in mimir-gateway helm chart ([d92dfe9](https://github.com/celest-io/go-release-please/commit/d92dfe9b144bda6ac5c23f6e29223588712905c2))
+
 ## [0.1.0](https://github.com/celest-io/go-release-please/compare/loki-gateway-v0.2.0...loki-gateway-v0.1.0) (2023-01-03)
 
 
