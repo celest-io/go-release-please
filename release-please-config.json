@@ -7,11 +7,11 @@
   "prerelease": false,
   "packages": {
     "charts/loki-gateway": {
-      "component": "loki-gateway-chart",
+      "component": "loki-gateway",
       "release-type": "helm"
     },
     "charts/mimir-gateway": {
-      "component": "mimir-gateway-chart",
+      "component": "mimir-gateway",
       "release-type": "helm"
     },
     ".": {
