@@ -19,8 +19,16 @@
       "release-type": "go",
       "include-component-in-tag": false,
       "extra-files": [
-        "charts/loki-gateway/Chart.yaml",
-        "charts/mimir-gateway/Chart.yaml"
+        {
+          "type": "yaml",
+          "path": "charts/loki-gateway/Chart.yaml",
+          "jsonpath": "$.appVersion"
+        },
+        {
+          "type": "yaml",
+          "path": "charts/mimir-gateway/Chart.yaml",
+          "jsonpath": "$.appVersion"
+        }
       ]
     }
   },
