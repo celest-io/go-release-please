@@ -1,0 +1,13 @@
+{
+  extends: ["config:base", "schedule:weekly", ":disableDependencyDashboard"],
+  semanticCommits: false,
+  postUpdateOptions: ["gomodTidy", "gomodNoMassage"],
+  commitMessagePrefix: "chore(all): ",
+  commitMessageAction: "update",
+  groupName: "all",
+  force: {
+    constraints: {
+      go: "1.19",
+    },
+  },
+}
