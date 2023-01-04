@@ -28,6 +28,7 @@ jobs:
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
       release_tag_name: ${{ steps.release.outputs.tag_name }}
+      paths_released: ${{ steps.release.outputs.paths_released }}
       chart_release_created: ${{ steps.release.outputs['charts/loki-gateway--release_created'] || steps.release.outputs['charts/mimir-gateway--release_created'] }}
       chart_tag_name: ${{ steps.release.outputs['charts/loki-gateway--tag_name'] || steps.release.outputs['charts/mimir-gateway--tag_name'] }}
 
@@ -76,6 +77,9 @@ jobs:
     needs: release-please
     runs-on: ubuntu-latest
     if: ${{ needs.release-please.outputs.chart_release_created }}
+    strategy:
+      matrix:
+        release_path: ${{ needs.release-please.outputs.chart_release_created }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -95,12 +99,9 @@ jobs:
         with:
           version: v3.10.2
 
-      - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.4.1
-        with:
-          charts_dir: charts
-        env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Package Helm charts
+        run: |
+          helm package ${{ matrix.release_path }} -d .cr-release-packages
 
       # see https://github.com/helm/chart-releaser/issues/183
       - name: Login to GitHub Container Registry
