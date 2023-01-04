@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/celest-io/go-release-please/compare/loki-gateway-v0.1.1...loki-gateway-v0.1.2) (2023-01-04)
+
+
+### Bug Fixes
+
+* Trigger new helm Chart release ([4a41250](https://github.com/celest-io/go-release-please/commit/4a41250ea53fe898f2dacc0040cc267b21437245))
+
 ## [0.1.1](https://github.com/celest-io/go-release-please/compare/loki-gateway-v0.1.0...loki-gateway-v0.1.1) (2023-01-03)
 
 
