@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.3](https://github.com/celest-io/go-release-please/compare/v0.3.2...v0.3.3) (2023-01-04)
+
+
+### Bug Fixes
+
+* Path released matrix input format ([d755e40](https://github.com/celest-io/go-release-please/commit/d755e40e7a090ca2198ff3b62a0f5861a5b7583c))
+* Trigger new helm Chart release ([4a41250](https://github.com/celest-io/go-release-please/commit/4a41250ea53fe898f2dacc0040cc267b21437245))
+* Use correct output for path released ([1538e4f](https://github.com/celest-io/go-release-please/commit/1538e4f142d96b6748799d0afc5dab837f76cedf))
+
 ## [0.3.2](https://github.com/celest-io/go-release-please/compare/v0.3.1...v0.3.2) (2023-01-04)
 
 
