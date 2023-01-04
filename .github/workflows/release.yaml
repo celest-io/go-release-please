@@ -79,7 +79,7 @@ jobs:
     if: ${{ needs.release-please.outputs.chart_release_created }}
     strategy:
       matrix:
-        release_path: ${{ needs.release-please.outputs.chart_release_created }}
+        path_released: ${{ needs.release-please.outputs.paths_released }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -101,7 +101,7 @@ jobs:
 
       - name: Package Helm charts
         run: |
-          helm package ${{ matrix.release_path }} -d .cr-release-packages
+          helm package ${{ matrix.path_released }} -d .cr-release-packages
 
       # see https://github.com/helm/chart-releaser/issues/183
       - name: Login to GitHub Container Registry
