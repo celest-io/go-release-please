@@ -3,7 +3,7 @@ name: mimir-gateway
 home: https://github.com/celest-io/go-release-please
 description: A Helm chart for mimir-gateway!
 type: application
-version: 0.1.1
+version: 0.1.2
 appVersion: v0.3.3
 maintainers:
   - name: yvigara
