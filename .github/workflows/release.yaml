@@ -101,7 +101,7 @@ jobs:
 
       - name: Package Helm charts
         run: |
-          helm package ${{ matrix.path_released }} -d .cr-release-packages
+          helm package -d .cr-release-packages ${{ matrix.path_released }}
 
       # see https://github.com/helm/chart-releaser/issues/183
       - name: Login to GitHub Container Registry
