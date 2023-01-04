@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/celest-io/go-release-please/compare/mimir-gateway-v0.1.0...mimir-gateway-v0.1.1) (2023-01-04)
+
+
+### Bug Fixes
+
+* Trigger new helm Chart release ([4a41250](https://github.com/celest-io/go-release-please/commit/4a41250ea53fe898f2dacc0040cc267b21437245))
+
 ## [0.1.0](https://github.com/celest-io/go-release-please/compare/mimir-gateway-v0.2.0...mimir-gateway-v0.1.0) (2023-01-03)
 
 
