@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.2](https://github.com/celest-io/go-release-please/compare/v0.3.1...v0.3.2) (2023-01-04)
+
+
+### Features
+
+* Build helm charts using helm command ([d7e8056](https://github.com/celest-io/go-release-please/commit/d7e80565a06ec5744800875ced17ad0cba691ebb))
+* **build:** Trigger release on chart update ([7ff0e27](https://github.com/celest-io/go-release-please/commit/7ff0e2779b21ac464712c069c147b5dae031eeb6))
+
+
+### Bug Fixes
+
+* **build:** Get correct output for charts release ([442a87d](https://github.com/celest-io/go-release-please/commit/442a87d340d57af95f7e1ce7e17c3b4b1a78a182))
+* Version in mimir-gateway helm chart ([d92dfe9](https://github.com/celest-io/go-release-please/commit/d92dfe9b144bda6ac5c23f6e29223588712905c2))
+
 ## [0.3.1](https://github.com/celest-io/go-release-please/compare/v0.3.0...v0.3.1) (2023-01-03)
 
 
