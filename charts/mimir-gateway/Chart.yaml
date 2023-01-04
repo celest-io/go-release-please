@@ -1,7 +1,7 @@
 apiVersion: v2
 name: mimir-gateway
 home: https://github.com/celest-io/go-release-please
-description: A Helm chart for mimir-gateway
+description: A Helm chart for mimir-gateway!
 type: application
 version: 0.1.1
 appVersion: v0.3.3
