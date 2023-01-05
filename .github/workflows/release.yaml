@@ -99,10 +99,6 @@ jobs:
         with:
           version: v3.10.2
 
-      - name: Package Helm charts
-        run: |
-          helm package -d .cr-release-packages ${{ matrix.path_released }}
-
       # see https://github.com/helm/chart-releaser/issues/183
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v2
@@ -114,7 +110,11 @@ jobs:
       - name: Install cosign
         uses: sigstore/cosign-installer@v2.8.1
 
-      - name: Push charts to GHCR and sign
+      - name: Package Helm charts
+        run: |
+          helm package -d .cr-release-packages ${{ matrix.path_released }}
+
+      - name: Push Helm charts to GHCR and sign
         env:
           COSIGN_EXPERIMENTAL: 1
         # when filling gaps with previously released charts, cr would create
@@ -128,5 +128,6 @@ jobs:
             fi
             helm push "${pkg}" oci://${{ env.REGISTRY }}/${{ github.repository_owner }}/charts > .digest
             cat .digest
+            cat .digest | awk '/Pushed/{print $NF}'
             cosign sign $(cat .digest | awk -F "[, ]+" '/Pushed/{print $NF}')
           done
