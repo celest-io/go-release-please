@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.3.4](https://github.com/celest-io/go-release-please/compare/v0.3.3...v0.3.4) (2023-01-06)
+
+
+### Features
+
+* Force helm chart relase ([d212162](https://github.com/celest-io/go-release-please/commit/d212162c84098547301aa5d2042332a7c3e8b13a))
+* Force helm chart relase ([11117bf](https://github.com/celest-io/go-release-please/commit/11117bfda8d93a2cae798add1b93fb8a95f797d2))
+* Force helm chart relase ([8425531](https://github.com/celest-io/go-release-please/commit/842553126104d1b44d6be21d634163a2828f5ada))
+* Force helm chart relase ([d9413a1](https://github.com/celest-io/go-release-please/commit/d9413a1991441a3b193ecdcfc1b35ff1f34161e7))
+* Force helm chart relase ([d2baf26](https://github.com/celest-io/go-release-please/commit/d2baf26c6473a6fc4c6748a8754e790a5c059332))
+* Force helm chart relase ([6064929](https://github.com/celest-io/go-release-please/commit/606492995d822983705e9ce451f4a3f97b461951))
+* Force helm chart relase ([a96494a](https://github.com/celest-io/go-release-please/commit/a96494aec215298f8dc3da6805192dcc0290309a))
+* Force helm chart relase ([acc6455](https://github.com/celest-io/go-release-please/commit/acc6455cb89b6149e2316a801197c7e8138ade8e))
+* Force helm chart relase ([4f4887e](https://github.com/celest-io/go-release-please/commit/4f4887e4f49d65cca52fe362c8d453c070535fcc))
+* Force helm chart relase ([eadf566](https://github.com/celest-io/go-release-please/commit/eadf5661dfbdbc3c834b43a21d0aa739a3e8e7d9))
+* Force helm chart relase ([1f715be](https://github.com/celest-io/go-release-please/commit/1f715be2f20b4465703adb416282e140881084c2))
+* Force helm chart relase ([ac99753](https://github.com/celest-io/go-release-please/commit/ac997534f955e7aae87220df85411a04d64577b7))
+
+
+### Bug Fixes
+
+* Add extra debug info ([1db4ec4](https://github.com/celest-io/go-release-please/commit/1db4ec48f39a5205e4cfd792ee5e05192e717f3b))
+* Helm package output path ([7abee0d](https://github.com/celest-io/go-release-please/commit/7abee0d559023249842384e29117f0f62525745c))
+
 ## [0.3.3](https://github.com/celest-io/go-release-please/compare/v0.3.2...v0.3.3) (2023-01-04)
 
 
