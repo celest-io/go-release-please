@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/celest-io/go-release-please/compare/mimir-gateway-v0.1.3...mimir-gateway-v0.1.4) (2023-01-06)
+
+
+### Features
+
+* Force helm chart relase ([d2baf26](https://github.com/celest-io/go-release-please/commit/d2baf26c6473a6fc4c6748a8754e790a5c059332))
+
 ## [0.1.3](https://github.com/celest-io/go-release-please/compare/mimir-gateway-v0.1.2...mimir-gateway-v0.1.3) (2023-01-05)
 
 
