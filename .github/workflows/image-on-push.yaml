@@ -6,9 +6,9 @@ on:
       - main
     tags:
       - v*
-    paths-ignore:
-      - charts/**
-      - .github/**
+    paths:
+      - "!charts/**"
+      - "!.github/**"
   release:
     types: [published]
 
