@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/celest-io/go-release-please/compare/loki-gateway-v0.1.5...loki-gateway-v0.1.6) (2023-01-06)
+
+
+### Features
+
+* Force helm chart relase ([a96494a](https://github.com/celest-io/go-release-please/commit/a96494aec215298f8dc3da6805192dcc0290309a))
+
 ## [0.1.5](https://github.com/celest-io/go-release-please/compare/loki-gateway-v0.1.4...loki-gateway-v0.1.5) (2023-01-05)
 
 
