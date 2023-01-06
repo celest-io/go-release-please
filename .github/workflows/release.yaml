@@ -126,8 +126,9 @@ jobs:
             if [ -z "${pkg:-}" ]; then
               break
             fi
-            HELM_DIGEST=$(helm push "${pkg}" oci://${{ env.REGISTRY }}/${{ github.repository_owner }}/charts > .digest)
+            HELM_DIGEST=$(helm push "${pkg}" oci://${{ env.REGISTRY }}/${{ github.repository_owner }}/charts > .digest 2>&1)
             echo "Digest ${HELM_DIGEST}"
+            cat .digest
             echo "Awk"
             echo $HELM_DIGEST | awk '/Pushed/{print $NF}'
             echo "Sed"
