@@ -7,7 +7,7 @@ RUN make clean && make BUILD_IN_CONTAINER=false cmd1
 
 
 # executable image
-FROM alpine:3
+FROM alpine:20221110
 
 RUN apk add --no-cache ca-certificates
 
